@@ -1,0 +1,72 @@
+body {
+  background-color: whitesmoke;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#caixaDeEntrada {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #ff827a;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buscarPokemon {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 10px 20px;
+}
+
+#buscarPokemon input {
+  margin-left: 20px;
+  height: 30px;
+  font-size: 14px;
+  padding: 4px 8px;
+  flex-grow: 1;
+}
+
+#buscarPokemon button {
+  margin-left: 20px;
+  height: 30px;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.listar {
+  min-width: 300px;
+  flex-direction: column;
+  overflow-y: auto;
+  border-right: 2px solid lightgrey;
+  align-items: flex-start;
+  text-align: left;
+  max-height: 700px;
+}
+
+.listar div {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.listar div:hover {
+  cursor: pointer;
+  background-color: lightpink;
+  border-radius: 12px;
+}
+
+.verPokemon {
+  width: 300px;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.verPokemon img {
+  max-width: 300px;
+  max-height: 300px;
+}
